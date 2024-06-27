@@ -14,12 +14,16 @@ Convert currencies effortlessly with Currency Converter Wizard, a web applicatio
 - [License](#license)
 
 ## Demo
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue)](https://harshad313d.github.io/Currency-Converter-Wizard-/)
 
-You can view a live demo of the Currency Converter Wizard at [Demo Link](#).
+
+You can view a live demo of the Currency Converter Wizard at 
+
+
 
 ## Features
 
-- **Currency Conversion:** Convert between various currencies with real-time exchange rates.
+- **Currency Conversion:** Convert between various currencies with real-time exchange rates. From of 150+ country currencies
 - **Customizable Options:** Select different base and target currencies.
 - **Responsive Design:** Accessible and usable across different devices.
 - **Swap Functionality:** Quickly switch between base and target currencies with a single click.
