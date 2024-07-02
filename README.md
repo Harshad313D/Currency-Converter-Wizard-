@@ -36,6 +36,11 @@ You can view a live demo of the Currency Converter Wizard at
 - Fetch API for data retrieval
 - [FreeCurrencyAPI](https://freecurrencyapi.com/) for currency exchange rates
 - Flags API for displaying country flags
+- Node.js
+- Express.js
+- dotenv
+- node-fetch
+
 
 ## Overview
 
@@ -57,13 +62,13 @@ Currency Converter Wizard uses the FreeCurrencyAPI to fetch real-time exchange r
 ```bash
 cd currency-converter-wizard
 ```
-Install Dependencies
+### Install Dependencies
 Install Node.js dependencies using npm:
 
 ```bash
 npm install
 ```
-Configuration
+### Configuration
 Create a .env file in the root directory of your project. Add your API key and any other environment variables:
 ```makefile
 API_KEY="your api key "
@@ -79,9 +84,7 @@ npm start
 The server will start running on http://localhost:3000. You can access the application by navigating to this URL in your web browser.
 
 Directory Structure
-```bash
 After cloning and installing dependencies, your project directory should look like this:
-```
 ```java
 currency-converter/
 ├── public/
@@ -92,10 +95,10 @@ currency-converter/
 ├── package.json
 └── server.mjs
 ```
-Dependencies
+## Dependencies
+-express: Fast, unopinionated, minimalist web framework for Node.js.
+-dotenv: Loads environment variables from a .env file into process.env.
+-node-fetch: A light-weight module that brings window.fetch to Node.js.
 
-express: Fast, unopinionated, minimalist web framework for Node.js.
-dotenv: Loads environment variables from a .env file into process.env.
-node-fetch: A light-weight module that brings window.fetch to Node.js.
 ## Contribution
 If you want to contribute to this project, feel free to fork it and submit your pull requests.
